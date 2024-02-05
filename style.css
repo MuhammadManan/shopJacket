@@ -1,91 +1,101 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:'Gilroy';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
 }
-html,body{
-    width: 100%;
-    height: 100%;
-} 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
-#main{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
-#nav{
-    width: 100%;
-    height: 100px;
-    /* background-color: lightblue; */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 30px;
-    padding: 0px 30px;
+#nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 30px;
 }
-#nav h4{
-    font-size: 20px; 
-    font-weight: 600;
+#nav h4 {
+  font-size: 20px;
+  font-weight: 600;
 }
-#nav i{
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-weight: 500;
-    border-radius: 50%;
-    font-size: 20px;
+#nav i {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-weight: 500;
+  border-radius: 50%;
+  font-size: 20px;
 }
-#centre{
-    /* background-color: beige; */
-    padding: 40px 50px;
-    width: 100%;
+#centre {
+  /* background-color: beige; */
+  padding: 40px 50px 0px 50px;
+  width: 100%;
 }
-#centre h1{
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 90px;
+#centre h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
 }
-#centre-in{
-    /* background-color: lightcoral; */
-    margin-top: 30px;
-    padding: 0px 50px 20px 0px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+#centre-in {
+  /* background-color: lightcoral; */
+  margin-top: 30px;
+  padding: 0px 50px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-#centre-in p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
+#centre-in p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
-#right{
-    /* background-color: lightblue; */
-    padding-top: 30px;
-    width: 30%;
+#right {
+  /* background-color: lightblue; */
+  padding-top: 30px;
+  width: 30%;
 }
-.elem{
-    border-top: 2px solid black;
-    padding: 20px 0px;
-    /* background-color: rgb(123, 123, 212); */
-    display: flex;
-    justify-content: space-between;
+.elem {
+  border-top: 2px solid black;
+  padding: 20px 0px;
+  /* background-color: rgb(123, 123, 212); */
+  display: flex;
+  justify-content: space-between;
 }
-.elem a{
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
+.elem a {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
 }
-.elem i{
-    /* background-color: burlywood; */
-    font-size: 20px ;
-    font-weight: 500;
-    opacity: 0;
+.elem i {
+  /* background-color: burlywood; */
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0;
 }
-.elem:hover{
-    background-color: rgb(216, 216, 216);
+.elem:hover {
+  background-color: rgb(216, 216, 216);
 }
-.elem:hover i{
-    opacity: 1;
+.elem:hover i {
+  opacity: 1;
+}
+#bottom {
+  width: 100%;
+  height: 31vh;
+  /* background-color: red; */
+  background-image: url("https://wallpapers.com/images/hd/beautiful-black-woman-with-the-sky-wrcmewxu2vjopsav.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-position: 0 30% ;
 }
